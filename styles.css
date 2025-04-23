@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  margin: 0;
+  background-color: #ffffff; /* Background color of the page. Change this to any color you want (e.g., #f0f0f0 for light gray). */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar Styles */
+.navbar-custom {
+  background-color: #1aff00c3; /* Navbar background color. Customize this for different shades. */
+  padding: 1rem 2rem; /* Adjust the padding for space around the content inside the navbar. */
+}
+
+.navbar.sticky-top {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05); /* Change shadow effect or remove it by setting 'box-shadow: none;'. */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #000; /* Navbar brand text color. */
+}
+
+/* Navbar Links */
+.nav-link {
+  color: #6c757d; /* Default link color in the navbar. Change as needed. */
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #000; /* Hover color for links in the navbar. */
+}
+
+/* CTA Button */
+.cta-button {
+  background-color: #0d1b2a; /* Background color of the "Call To Action" button. */
+  color: rgb(245, 1, 1); /* Text color of the button. Use a hex or color name for other colors. */
+  font-weight: 600;
+  padding: 0.4rem 1rem; /* Adjust padding to control button size. */
+  border: none;
+  border-radius: 5px; /* Adjust border-radius for rounder or sharper button edges. */
+}
+
+/* Hero Section */
+.hero-section {
+  padding: 5rem 2rem 3rem; /* Adjust the padding around the hero section. */
+}
+
+.hero-text h1 {
+  font-size: 3.2rem; /* Heading font size in the hero section. */
+  font-weight: bold;
+  line-height: 1.2; /* Line height for better spacing. */
+}
+
+.hero-text p {
+  color: #6c757d; /* Hero section paragraph color. */
+  margin: 1.5rem 0; /* Space around the paragraph. */
+}
+
+/* Hero Buttons */
+.hero-buttons .btn-dark {
+  background-color: #0d1b2a; /* Background color of dark button. */
+  padding: 0.6rem 1.2rem; /* Adjust button size by changing padding. */
+  font-weight: 500;
+  border: none;
+}
+
+.hero-buttons .btn-outline-secondary {
+  color: #6c757d; /* Text color for outline button. */
+  border: none; /* Remove or customize border for the button. */
+}
+
+/* Hero Image */
+.hero-image img {
+  max-width: 100%; /* Image scales to fit its container. */
+  height: auto; /* Maintains aspect ratio of the image. */
+}
+
+/* Additional Customization Areas (Example) */
+/* Footer Links */
+footer a {
+  color: #007bff; /* Footer link default color. Change to your preference. */
+}
+footer a:hover {
+  color: #0056b3; /* Footer link hover color. */
+}
+
+/* Card Section Links */
+.card-body a {
+  color: #dc3545; /* Change link colors for cards in the body. */
+}
+.card-body a:hover {
+  color: #c82333; /* Hover color for card links. */
+}
